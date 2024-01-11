@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quote App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="quote-box">
+      <h2>Quote Of The Day</h2>
+      <blockquote id="quote">Loading...</blockquote>
+      <span id="author">Loading...</span>
+      <div>
+        <button onclick="getQuote(api_url)">New Quote</button>
+        <button onclick="tweet()"><img src="share.png">Share</button>
+      </div>
+    </div>
+    <footer>
+      <nav>
+        <a
+          href="https://www.linkedin.com/in/om-shree-04372118a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        >
+        LinkedIn</a
+        >
+      </nav>
+    </footer>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
